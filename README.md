@@ -1,4 +1,5 @@
-
+# Final Project
+This repo fork is for LING8430 Final Project
 
 # Getting started
 0. We ran our experiments on the operating system Springdale Linux 8, but it should work on any system that can run Python. The installation steps below should take approximately 10 minutes.
