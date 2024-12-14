@@ -1,0 +1,44 @@
+2024-12-14 00:55:40,361 INFO     Namespace(n_meta_train=100, n_meta_valid=10, n_meta_test=10, meta_train_batch_size=10, meta_eval_batch_size=10, max_batches_per_language=10, meta_train_size=10, meta_test_size=10, dataset='scfg', yandp_param_file=None, formal_train_size=100, formal_test_size=10, language_list='language_list', withheld_languages='language_list', architecture='LSTM', n_embd=64, n_positions=100, n_head=12, n_layer=2, dropout=0.1, n_epochs=1, eval_every=10, weight_decay=0.1, learning_rate=0.005, inner_lr=1.0, lr_scheduler_type='cosine', warmup_proportion=0.05, patience=None, lr_decay_patience=None, multi_step_loss=True, multi_step_loss_eval=False, pseudo=False, model_name='meta_lm_hidden64_MINITEST_0', weight_dir='weights/', log_dir='logs/', eval=False, eval_formal=False, eval_valid=False, eval_generate=False, top_p=1.0, hot_temperature=1.0, cold_temperature=1.0, prec_rec_n_samples=10000, sgd_epochs=1, adam_lr=0.0005, adam_epochs=10, eval_suffix='', return_last=False)
+2024-12-14 00:55:46,569 INFO     Model size: 0.1M parameters
+2024-12-14 00:56:14,000 INFO     Validation loss: 1.1029776579431767
+2024-12-14 00:56:14,000 INFO     Validation perplexity: 3.013124734138214
+2024-12-14 00:56:14,001 INFO     Saving model checkpoint to weights/
+2024-12-14 00:56:14,002 INFO     Training step 0 out of 100; Epoch 0; Learning rate: 0.0
+2024-12-14 00:56:29,723 INFO     Validation loss: 1.1512167697085396
+2024-12-14 00:56:29,723 INFO     Validation perplexity: 3.1620380420018614
+2024-12-14 00:56:29,723 INFO     Training step 10 out of 100; Epoch 0; Learning rate: 0.004965903258506806
+2024-12-14 00:56:51,012 INFO     Validation loss: 0.9686990450973928
+2024-12-14 00:56:51,012 INFO     Validation perplexity: 2.6345148439481525
+2024-12-14 00:56:51,012 INFO     Saving model checkpoint to weights/
+2024-12-14 00:56:51,014 INFO     Training step 20 out of 100; Epoch 0; Learning rate: 0.004698684378016222
+2024-12-14 00:57:16,793 INFO     Validation loss: 0.9413523244000123
+2024-12-14 00:57:16,793 INFO     Validation perplexity: 2.5634456855434484
+2024-12-14 00:57:16,793 INFO     Saving model checkpoint to weights/
+2024-12-14 00:57:16,795 INFO     Training step 30 out of 100; Epoch 0; Learning rate: 0.004193203929064353
+2024-12-14 00:57:45,516 INFO     Validation loss: 0.9150921610178001
+2024-12-14 00:57:45,516 INFO     Validation perplexity: 2.497005367857019
+2024-12-14 00:57:45,516 INFO     Saving model checkpoint to weights/
+2024-12-14 00:57:45,518 INFO     Training step 40 out of 100; Epoch 0; Learning rate: 0.003504238561632424
+2024-12-14 00:58:00,705 INFO     Validation loss: 0.908447913476987
+2024-12-14 00:58:00,705 INFO     Validation perplexity: 2.4804696406468385
+2024-12-14 00:58:00,706 INFO     Saving model checkpoint to weights/
+2024-12-14 00:58:00,707 INFO     Training step 50 out of 100; Epoch 0; Learning rate: 0.0027064483636808313
+2024-12-14 00:58:35,148 INFO     Validation loss: 0.9006045833927069
+2024-12-14 00:58:35,148 INFO     Validation perplexity: 2.461090595959601
+2024-12-14 00:58:35,149 INFO     Saving model checkpoint to weights/
+2024-12-14 00:58:35,150 INFO     Training step 60 out of 100; Epoch 0; Learning rate: 0.0018862862821480023
+2024-12-14 00:59:11,713 INFO     Validation loss: 0.8886810436379471
+2024-12-14 00:59:11,714 INFO     Validation perplexity: 2.4319199387445867
+2024-12-14 00:59:11,714 INFO     Saving model checkpoint to weights/
+2024-12-14 00:59:11,715 INFO     Training step 70 out of 100; Epoch 0; Learning rate: 0.0011326296046939332
+2024-12-14 00:59:32,040 INFO     Validation loss: 0.8806802958489596
+2024-12-14 00:59:32,041 INFO     Validation perplexity: 2.4125403894914097
+2024-12-14 00:59:32,041 INFO     Saving model checkpoint to weights/
+2024-12-14 00:59:32,042 INFO     Training step 80 out of 100; Epoch 0; Learning rate: 0.0005271487265090163
+2024-12-14 00:59:59,707 INFO     Validation loss: 0.8788944608154529
+2024-12-14 00:59:59,707 INFO     Validation perplexity: 2.4082358351001334
+2024-12-14 00:59:59,707 INFO     Saving model checkpoint to weights/
+2024-12-14 00:59:59,708 INFO     Training step 90 out of 100; Epoch 0; Learning rate: 0.0001354568957484134
+2024-12-14 01:00:25,312 INFO     Loading model checkpoint from weights/meta_lm_hidden64_MINITEST_0
+2024-12-14 01:00:26,065 INFO     Validation loss: 0.8788944608154529
+2024-12-14 01:00:26,065 INFO     Validation perplexity: 2.4082358351001334
