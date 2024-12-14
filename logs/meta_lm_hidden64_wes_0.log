@@ -1,0 +1,6 @@
+2024-12-14 01:25:07,135 INFO     Namespace(n_meta_train=8000, n_meta_valid=200, n_meta_test=1000, meta_train_batch_size=20, meta_eval_batch_size=1000, max_batches_per_language=20, meta_train_size=10, meta_test_size=1000, dataset='scfg', yandp_param_file=None, formal_train_size=100, formal_test_size=10, language_list='language_list', withheld_languages='language_list', architecture='LSTM', n_embd=64, n_positions=100, n_head=12, n_layer=2, dropout=0.1, n_epochs=1, eval_every=100, weight_decay=0.1, learning_rate=0.005, inner_lr=1.0, lr_scheduler_type='cosine', warmup_proportion=0.05, patience=None, lr_decay_patience=None, multi_step_loss=True, multi_step_loss_eval=False, pseudo=False, model_name='meta_lm_hidden64_wes_0', weight_dir='weights/', log_dir='logs/', eval=False, eval_formal=False, eval_valid=False, eval_generate=False, top_p=1.0, hot_temperature=1.0, cold_temperature=1.0, prec_rec_n_samples=10000, sgd_epochs=1, adam_lr=0.0005, adam_epochs=10, eval_suffix='', return_last=False)
+2024-12-14 01:25:12,901 INFO     Model size: 0.1M parameters
+2024-12-14 01:31:02,042 INFO     Validation loss: 1.125792904588519
+2024-12-14 01:31:02,042 INFO     Validation perplexity: 3.0826601355097396
+2024-12-14 01:31:02,042 INFO     Saving model checkpoint to weights/
+2024-12-14 01:31:02,044 INFO     Training step 0 out of 8000; Epoch 0; Learning rate: 0.0
