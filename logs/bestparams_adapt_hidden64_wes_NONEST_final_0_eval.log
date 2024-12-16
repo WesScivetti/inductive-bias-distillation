@@ -1,0 +1,11 @@
+2024-12-16 06:58:30,738 INFO     Namespace(directory='CHILDES/pretraining_sixtyfourth_1/', add_eos=False, batch_size=10, shuffle=False, architecture='LSTM', n_embd=32, n_positions=256, n_head=12, n_layer=2, dropout=0.1, pretrained_name='weights/meta_lm_hidden64_wes_NONEST_0', pretrained_vocab_size=15, n_epochs=8192, eval_every=100, weight_decay=0.01, learning_rate=0.01, lr_scheduler_type='cosine', warmup_proportion=0.06, patience=None, lr_decay_patience=None, model_name='bestparams_adapt_hidden64_wes_NONEST_final_0', model_index=None, weight_dir='weights/', log_dir='logs/', eval=True, eval_generate=False, eval_zorro=False, eval_recursion=False, eval_priming=False, eval_scamp_plausible=False, eval_scamp_implausible=False, eval_blimp=False, eval_test=True, eval_suffix=None)
+2024-12-16 06:58:41,303 INFO     Vocab size: 17406
+2024-12-16 06:58:42,963 INFO     Model size: 0.0M parameters
+2024-12-16 06:58:43,477 INFO     Loading model checkpoint from weights/meta_lm_hidden64_wes_NONEST_0
+2024-12-16 06:58:43,488 INFO     Loading model checkpoint from weights/bestparams_adapt_hidden64_wes_NONEST_final_0
+2024-12-16 06:58:48,546 INFO     Validation loss: 6.515333054345967
+2024-12-16 06:58:48,546 INFO     Validation perplexity: 675.4188752585915
+2024-12-16 06:58:59,147 INFO     Validation (strided) loss: 6.514536412784788
+2024-12-16 06:58:59,147 INFO     Validation (strided) perplexity: 674.8810227776212
+2024-12-16 06:59:04,113 INFO     Test loss: 6.30373021161387
+2024-12-16 06:59:04,113 INFO     Test perplexity: 546.607072022088
