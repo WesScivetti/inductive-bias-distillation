@@ -1,0 +1,142 @@
+2024-12-16 05:08:14,063 INFO     Namespace(directory='CHILDES/pretraining_thirtysecond_0/', add_eos=False, batch_size=10, shuffle=False, architecture='LSTM', n_embd=32, n_positions=256, n_head=12, n_layer=2, dropout=0.4, pretrained_name='weights/meta_lm_hidden64_wes_1', pretrained_vocab_size=15, n_epochs=64, eval_every=100, weight_decay=0.01, learning_rate=0.003, lr_scheduler_type='cosine', warmup_proportion=0.06, patience=None, lr_decay_patience=None, model_name='bestparams_adapt_hidden64_wes_baseline_1_0', model_index=None, weight_dir='weights/', log_dir='logs/', eval=False, eval_generate=False, eval_zorro=False, eval_recursion=False, eval_priming=False, eval_scamp_plausible=False, eval_scamp_implausible=False, eval_blimp=False, eval_test=False, eval_suffix=None)
+2024-12-16 05:08:24,464 INFO     Vocab size: 24736
+2024-12-16 05:08:26,093 INFO     Model size: 0.0M parameters
+2024-12-16 05:08:27,083 INFO     Loading model checkpoint from weights/meta_lm_hidden64_wes_1
+2024-12-16 05:08:32,662 INFO     Validation loss: 15.028263191734014
+2024-12-16 05:08:32,662 INFO     Validation perplexity: 3362728.2839793744
+2024-12-16 05:08:32,662 INFO     Saving model checkpoint to weights/
+2024-12-16 05:08:32,669 INFO     Training step 0 out of 15808; Epoch 0; Learning rate: 0.0
+2024-12-16 05:08:39,482 INFO     Validation loss: 13.134762837413394
+2024-12-16 05:08:39,483 INFO     Validation perplexity: 506238.3260149212
+2024-12-16 05:08:39,483 INFO     Saving model checkpoint to weights/
+2024-12-16 05:08:39,490 INFO     Training step 100 out of 15808; Epoch 0; Learning rate: 0.00031612223393045314
+2024-12-16 05:08:46,116 INFO     Validation loss: 10.125864271991398
+2024-12-16 05:08:46,116 INFO     Validation perplexity: 24980.836552036784
+2024-12-16 05:08:46,116 INFO     Saving model checkpoint to weights/
+2024-12-16 05:08:46,122 INFO     Training step 200 out of 15808; Epoch 0; Learning rate: 0.0006322444678609063
+2024-12-16 05:08:52,801 INFO     Validation loss: 9.758629469141843
+2024-12-16 05:08:52,801 INFO     Validation perplexity: 17302.90125699547
+2024-12-16 05:08:52,801 INFO     Saving model checkpoint to weights/
+2024-12-16 05:08:52,807 INFO     Training step 300 out of 15808; Epoch 1; Learning rate: 0.0009483667017913595
+2024-12-16 05:08:59,425 INFO     Validation loss: 9.411473777960994
+2024-12-16 05:08:59,425 INFO     Validation perplexity: 12227.878881651734
+2024-12-16 05:08:59,425 INFO     Saving model checkpoint to weights/
+2024-12-16 05:08:59,432 INFO     Training step 400 out of 15808; Epoch 1; Learning rate: 0.0012644889357218126
+2024-12-16 05:09:06,157 INFO     Validation loss: 8.741337230600358
+2024-12-16 05:09:06,157 INFO     Validation perplexity: 6256.256178280327
+2024-12-16 05:09:06,157 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:06,164 INFO     Training step 500 out of 15808; Epoch 2; Learning rate: 0.0015806111696522655
+2024-12-16 05:09:12,813 INFO     Validation loss: 7.880972781633589
+2024-12-16 05:09:12,813 INFO     Validation perplexity: 2646.4457217296404
+2024-12-16 05:09:12,813 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:12,820 INFO     Training step 600 out of 15808; Epoch 2; Learning rate: 0.001896733403582719
+2024-12-16 05:09:19,474 INFO     Validation loss: 7.419336056837487
+2024-12-16 05:09:19,474 INFO     Validation perplexity: 1667.9257321499906
+2024-12-16 05:09:19,474 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:19,481 INFO     Training step 700 out of 15808; Epoch 2; Learning rate: 0.0022128556375131717
+2024-12-16 05:09:26,114 INFO     Validation loss: 7.272074306161589
+2024-12-16 05:09:26,114 INFO     Validation perplexity: 1439.5333911866933
+2024-12-16 05:09:26,114 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:26,121 INFO     Training step 800 out of 15808; Epoch 3; Learning rate: 0.002528977871443625
+2024-12-16 05:09:32,792 INFO     Validation loss: 7.216073654044329
+2024-12-16 05:09:32,792 INFO     Validation perplexity: 1361.134271168596
+2024-12-16 05:09:32,793 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:32,799 INFO     Training step 900 out of 15808; Epoch 3; Learning rate: 0.002845100105374078
+2024-12-16 05:09:39,453 INFO     Validation loss: 7.1660952712176265
+2024-12-16 05:09:39,453 INFO     Validation perplexity: 1294.7789585905082
+2024-12-16 05:09:39,453 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:39,460 INFO     Training step 1000 out of 15808; Epoch 4; Learning rate: 0.0029999127996982694
+2024-12-16 05:09:46,125 INFO     Validation loss: 7.154924524417779
+2024-12-16 05:09:46,125 INFO     Validation perplexity: 1280.3957955856824
+2024-12-16 05:09:46,126 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:46,132 INFO     Training step 1100 out of 15808; Epoch 4; Learning rate: 0.0029992356384185717
+2024-12-16 05:09:52,749 INFO     Validation loss: 7.1353508065491145
+2024-12-16 05:09:52,750 INFO     Validation perplexity: 1255.5773762773229
+2024-12-16 05:09:52,750 INFO     Saving model checkpoint to weights/
+2024-12-16 05:09:52,756 INFO     Training step 1200 out of 15808; Epoch 4; Learning rate: 0.002997888323624741
+2024-12-16 05:09:59,428 INFO     Validation loss: 7.13560147690169
+2024-12-16 05:09:59,429 INFO     Validation perplexity: 1255.8921517517115
+2024-12-16 05:09:59,429 INFO     Training step 1300 out of 15808; Epoch 5; Learning rate: 0.002995871457562162
+2024-12-16 05:10:06,055 INFO     Validation loss: 7.1204378604984155
+2024-12-16 05:10:06,055 INFO     Validation perplexity: 1236.9919448132598
+2024-12-16 05:10:06,055 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:06,062 INFO     Training step 1400 out of 15808; Epoch 5; Learning rate: 0.002993185941763486
+2024-12-16 05:10:12,703 INFO     Validation loss: 7.104585329302977
+2024-12-16 05:10:12,703 INFO     Validation perplexity: 1217.5371030818808
+2024-12-16 05:10:12,703 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:12,710 INFO     Training step 1500 out of 15808; Epoch 6; Learning rate: 0.0029898329766456467
+2024-12-16 05:10:19,365 INFO     Validation loss: 7.095420513438197
+2024-12-16 05:10:19,365 INFO     Validation perplexity: 1206.429576687539
+2024-12-16 05:10:19,365 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:19,372 INFO     Training step 1600 out of 15808; Epoch 6; Learning rate: 0.002985814060973282
+2024-12-16 05:10:26,008 INFO     Validation loss: 7.07309580711004
+2024-12-16 05:10:26,008 INFO     Validation perplexity: 1179.7948036307916
+2024-12-16 05:10:26,009 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:26,015 INFO     Training step 1700 out of 15808; Epoch 6; Learning rate: 0.0029811309911887854
+2024-12-16 05:10:32,627 INFO     Validation loss: 7.051815470647363
+2024-12-16 05:10:32,628 INFO     Validation perplexity: 1154.9536250146846
+2024-12-16 05:10:32,628 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:32,634 INFO     Training step 1800 out of 15808; Epoch 7; Learning rate: 0.0029757858606093077
+2024-12-16 05:10:39,302 INFO     Validation loss: 7.0191166338639395
+2024-12-16 05:10:39,303 INFO     Validation perplexity: 1117.7987559209726
+2024-12-16 05:10:39,303 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:39,309 INFO     Training step 1900 out of 15808; Epoch 7; Learning rate: 0.002969781058491046
+2024-12-16 05:10:45,952 INFO     Validation loss: 7.018664924057773
+2024-12-16 05:10:45,952 INFO     Validation perplexity: 1117.29394928324
+2024-12-16 05:10:45,952 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:45,959 INFO     Training step 2000 out of 15808; Epoch 8; Learning rate: 0.002963119268961257
+2024-12-16 05:10:52,564 INFO     Validation loss: 6.984119329899548
+2024-12-16 05:10:52,564 INFO     Validation perplexity: 1079.355442980047
+2024-12-16 05:10:52,565 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:52,571 INFO     Training step 2100 out of 15808; Epoch 8; Learning rate: 0.00295580346981846
+2024-12-16 05:10:59,201 INFO     Validation loss: 6.95177118542197
+2024-12-16 05:10:59,201 INFO     Validation perplexity: 1044.9989769695972
+2024-12-16 05:10:59,201 INFO     Saving model checkpoint to weights/
+2024-12-16 05:10:59,208 INFO     Training step 2200 out of 15808; Epoch 8; Learning rate: 0.002947836931201371
+2024-12-16 05:11:05,861 INFO     Validation loss: 6.935520677312114
+2024-12-16 05:11:05,861 INFO     Validation perplexity: 1028.1544493745944
+2024-12-16 05:11:05,861 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:05,868 INFO     Training step 2300 out of 15808; Epoch 9; Learning rate: 0.0029392232141271578
+2024-12-16 05:11:12,489 INFO     Validation loss: 6.899849886873768
+2024-12-16 05:11:12,489 INFO     Validation perplexity: 992.1257733247606
+2024-12-16 05:11:12,489 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:12,496 INFO     Training step 2400 out of 15808; Epoch 9; Learning rate: 0.002929966168899682
+2024-12-16 05:11:19,114 INFO     Validation loss: 6.896850358694762
+2024-12-16 05:11:19,114 INFO     Validation perplexity: 989.1543228132122
+2024-12-16 05:11:19,114 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:19,120 INFO     Training step 2500 out of 15808; Epoch 10; Learning rate: 0.002920069933388423
+2024-12-16 05:11:25,768 INFO     Validation loss: 6.877816063715647
+2024-12-16 05:11:25,769 INFO     Validation perplexity: 970.5045236144805
+2024-12-16 05:11:25,769 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:25,775 INFO     Training step 2600 out of 15808; Epoch 10; Learning rate: 0.002909538931178863
+2024-12-16 05:11:32,482 INFO     Validation loss: 6.8453752638803875
+2024-12-16 05:11:32,482 INFO     Validation perplexity: 939.5257849565749
+2024-12-16 05:11:32,482 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:32,489 INFO     Training step 2700 out of 15808; Epoch 10; Learning rate: 0.0028983778695951578
+2024-12-16 05:11:39,089 INFO     Validation loss: 6.840072123724711
+2024-12-16 05:11:39,089 INFO     Validation perplexity: 934.5565359968946
+2024-12-16 05:11:39,089 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:39,096 INFO     Training step 2800 out of 15808; Epoch 11; Learning rate: 0.0028865917375959825
+2024-12-16 05:11:45,848 INFO     Validation loss: 6.801205050753557
+2024-12-16 05:11:45,848 INFO     Validation perplexity: 898.9298953710068
+2024-12-16 05:11:45,848 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:45,855 INFO     Training step 2900 out of 15808; Epoch 11; Learning rate: 0.0028741858035444775
+2024-12-16 05:11:52,511 INFO     Validation loss: 6.8104897824679185
+2024-12-16 05:11:52,511 INFO     Validation perplexity: 907.3150851604405
+2024-12-16 05:11:52,511 INFO     Training step 3000 out of 15808; Epoch 12; Learning rate: 0.00286116561285331
+2024-12-16 05:11:59,239 INFO     Validation loss: 6.789516170231949
+2024-12-16 05:11:59,239 INFO     Validation perplexity: 888.4835830148625
+2024-12-16 05:11:59,239 INFO     Saving model checkpoint to weights/
+2024-12-16 05:11:59,246 INFO     Training step 3100 out of 15808; Epoch 12; Learning rate: 0.002847536985505893
+2024-12-16 05:12:05,884 INFO     Validation loss: 6.767754208284126
+2024-12-16 05:12:05,884 INFO     Validation perplexity: 869.3573045791705
+2024-12-16 05:12:05,885 INFO     Saving model checkpoint to weights/
+2024-12-16 05:12:05,891 INFO     Training step 3200 out of 15808; Epoch 12; Learning rate: 0.0028333060134548677
+2024-12-16 05:12:12,579 INFO     Validation loss: 6.762412983505825
+2024-12-16 05:12:12,579 INFO     Validation perplexity: 864.7262505628031
+2024-12-16 05:12:12,579 INFO     Saving model checkpoint to weights/
+2024-12-16 05:12:12,586 INFO     Training step 3300 out of 15808; Epoch 13; Learning rate: 0.002818479057899026
+2024-12-16 05:12:19,219 INFO     Validation loss: 6.728200354171174
+2024-12-16 05:12:19,219 INFO     Validation perplexity: 835.6420522009298
+2024-12-16 05:12:19,219 INFO     Saving model checkpoint to weights/
+2024-12-16 05:12:19,226 INFO     Training step 3400 out of 15808; Epoch 13; Learning rate: 0.002803062746439869
